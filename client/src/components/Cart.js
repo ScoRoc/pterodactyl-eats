@@ -30,7 +30,7 @@ class Cart extends Component {
 
     if ( Object.keys(this.props.user).length > 0 ) {
       return (
-        <div>
+        <div className='cart-wrap'>
           <button onClick={() => this.slideCart()} id='cart-button'><i class="fas fa-shopping-cart"></i></button>
           <div id='cart'>
             {allItems}
@@ -41,7 +41,7 @@ class Cart extends Component {
       )
     } else {
       return (
-        <div>
+        <div className='cart-wrap'>
           <button onClick={() => this.slideCart()} id='cart-button'><i class="fas fa-shopping-cart"></i></button>
           <div id='cart'>
             {allItems}

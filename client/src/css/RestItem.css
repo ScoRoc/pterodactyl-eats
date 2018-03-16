@@ -15,6 +15,7 @@ a {
   justify-content: center;
   align-items: center;
   margin: 4vh auto;
+  padding: 2vh 0;
 }
 
 .rest-item-backing {
