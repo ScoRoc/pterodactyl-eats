@@ -12,6 +12,10 @@ nav a {
   text-decoration: none;
 } */
 
+.cart-wrap {
+  padding: 1vw;
+}
+
 #cart {
   position: fixed;
   top: 0;
@@ -54,6 +58,7 @@ nav a {
   outline: none;
   cursor: pointer;
   transition: all .5s;
+  margin-bottom: 1vw;
 }
 
 #cart-checkout:hover {

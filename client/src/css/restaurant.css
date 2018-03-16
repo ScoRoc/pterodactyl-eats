@@ -1,8 +1,6 @@
 .rest-wrap {
   position: relative;
-  top: 0;
-  /* height: 80%;
-  width: 100%; */
+  padding: .1vh 0;
 }
 
 .rest-item {

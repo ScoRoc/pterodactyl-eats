@@ -5,13 +5,14 @@
 }
 
 .cart-item-container {
-text-align: center;
+  text-align: center;
   height: 10%;
   font-size: .6em;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding: .5vw;
 }
 
 .cart-img {

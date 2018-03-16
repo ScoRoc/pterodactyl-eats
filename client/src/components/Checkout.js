@@ -21,6 +21,7 @@ const Checkout = props => {
         <ul className='checkout-summary'>
           {cartItems}
         </ul>
+        <br />
         <p className='checkout-summary'>Total: {total.toFixed(2)} Pangean Ugh Clubs</p>
       </div>
       <div class="creditCardForm">
